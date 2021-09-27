@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <section class="user-panel">
+      <div class="top">
+        <div class="profile-pic-div">
+          <img class="profile-pic" src="images/image-jeremy.png" alt="">
+        </div>
+        <div>
+          <div class="pale-blue">Report for</div>
+          <div class="name">Jeremy Robson</div>
+        </div>
+      </div>
+      <div class="bottom">
+        <ul>
+          <li>
+              <input type='radio' value='daily' name='radio' id='daily'/>
+              <label for='daily'>Daily</label>
+          </li>
+          <li>
+              <input type='radio' value='weekly' name='radio'  id='weekly' checked />
+              <label for='weekly'>Weekly</label>
+          </li>
+          <li>
+              <input type='radio' value='monthly' name='radio'  id='monthly'/>
+              <label for='monthly'>Monthly</label>
+          </li>
+      </ul>
+      </div>
+    </section>
+
+    <section class="card-container">
+
+      <div class="card">
+        <div class="card-top card-top-work"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Work</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="work-current" class="hours">32</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="work-previous" class="previous">36</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top card-top-play"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Play</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="play-current" class="hours">10</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="play-previous" class="previous">8</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top card-top-study"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Study</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="study-current" class="hours">4</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="study-previous" class="previous">7</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top card-top-exercise"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Exercise</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="exercise-current" class="hours">4</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="exercise-previous" class="previous">5</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top card-top-social"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Social</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="social-current" class="hours">5</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="social-previous" class="previous">10</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top card-top-self"></div>
+        <div class="card-bottom">
+          <div class="card-flex">
+            <h4>Self Care</h4>
+            <img class="ellipsis" src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div>
+            <div class="current-div"><span id="self-current" class="hours">2</span>hrs</div>
+            <div class="previous-div"><span class="time-period">Last Week -</span> <span id="self-previous" class="previous">2</span>hrs</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
