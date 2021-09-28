@@ -43,7 +43,7 @@ Users should be able to:
 
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- Grid
 
 ### What I learned
 
@@ -59,7 +59,7 @@ Users should be able to:
 ### Useful resources
 
 - [Stack Overflow](https://stackoverflow.com/questions/53823706/expected-a-json-object-array-or-literal-json) - JSON formatting
-- [Stack Overflow](https://stackoverflow.com/questions/49481934/fetching-local-json)
+- [Stack Overflow](https://stackoverflow.com/questions/49481934/fetching-local-json) - Fetching local json
 - [JS Fiddle](https://jsfiddle.net/petrabarus/pPgS7/) - radio buttons
-- [Stack Overflow](https://stackoverflow.com/questions/5723647/change-data-based-on-radio-button)
-- [JS Tutorial](https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/)
+- [Stack Overflow](https://stackoverflow.com/questions/5723647/change-data-based-on-radio-button) - change data based on radio buttton
+- [JS Tutorial](https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/) - radio buttons
